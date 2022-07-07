@@ -1,0 +1,54 @@
+body {
+    background: #14213d;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    font-size: 1.5em;
+    color: white;
+}
+
+input[type=text],
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 2rem;
+    height: 3.5rem;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 2em;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: navy;
+    transition: 0.5s;
+}
+
+#alert {
+    color: green;
+    font-size: 2em;
+}
